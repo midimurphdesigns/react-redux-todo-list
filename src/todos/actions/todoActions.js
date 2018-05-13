@@ -78,7 +78,7 @@ export function UpdateTodo(todo) {
       todo
     })
     TodoApi.updateTodo(todo).then(res => {
-      dispatch(UPDATE_TODO_SUCCESS(res.data.data))
+      dispatch(UpdateTodoSuccess(res.data.data))
     })
   }
 }
