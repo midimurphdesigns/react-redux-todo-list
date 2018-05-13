@@ -16,7 +16,7 @@ export class TodoContainer extends Component {
   }
 
   startEditing = (id) => {
-    this.proops.actions.StartEditing(id)
+    this.props.actions.StartEditing(id)
   }
 
   cancelEditing = (id) => {
